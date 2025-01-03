@@ -1,0 +1,4 @@
+# Code checkers
+pre-commit==3.6.1
+black==23.1.0
+isort==5.12.0
