@@ -122,9 +122,9 @@ def perform_service(service: Service) -> None:
 if __name__ == "__main__":
     # process for email service
     email_service = EmailService(
-        "Jack", "Task [SM-1030930]", "Nick", "Hi, Jack! Some issue here..."
+        "Jack", "Nick", "Task [SM-1030930]", "Hi, Jack! Some issue here..."
     )
     perform_service(email_service)
 
-    payment_service = PaymentService("John", "")
+    payment_service = PaymentService("John", "Nick", "100$", "Google")
     perform_service(payment_service)
